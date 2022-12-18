@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Klein';
+    src: local('Klein Regular'), local('Klein-Regular'),
+        url('../fonts/Klein-Regular.woff2') format('woff2'),
+        url('../fonts/Klein-Regular.woff') format('woff'),
+        url('../fonts/Klein-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Klein';
+    src: local('Klein Medium Italic'), local('Klein-Medium-Italic'),
+        url('../fonts/Klein-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Klein-MediumItalic.woff') format('woff'),
+        url('../fonts/Klein-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Klein';
+    src: local('Klein ExtraBold Italic'), local('Klein-ExtraBold-Italic'),
+        url('../fonts/Klein-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Klein-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Klein-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Klein';
+    src: local('Klein Black'), local('Klein-Black'),
+        url('../fonts/Klein-Black.woff2') format('woff2'),
+        url('../fonts/Klein-Black.woff') format('woff'),
+        url('../fonts/Klein-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe-Regular';
+    src: url('../fonts/Circe-Regular.eot');
+    src: local('☺'), url('../fonts/Circe-Regular.woff') format('woff'), url('../fonts/Circe-Regular.ttf') format('truetype'), url('../fonts/Circe-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circe-Bold';
+    src: url('../fonts/Circe-Bold.eot');
+    src: local('☺'), url('../fonts/Circe-Bold.woff') format('woff'), url('../fonts/Circe-Bold.ttf') format('truetype'), url('../fonts/Circe-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
