@@ -66,7 +66,7 @@ a:hover {
   text-decoration: none;
 }
 
-.cl:after, .ps_lists:after, .f_bot:after, .f_center:after, .f_top:after, .b6_form:after, .b6_content:after, .b4_items:after, .h_bot_mob:after, .footer:after, .header_top:after, .header_top_mob:after, .b1:after, .b2:after, .b3:after, .b4:after, .b5:after, .b6:after, .b7:after, .b8:after, .b9:after, .b10:after, .b11:after, .b12:after, .b13:after, .b14:after {
+.cl:after, .bb_summary:after, .ps_lists:after, .f_bot:after, .f_center:after, .f_top:after, .b6_form:after, .b6_content:after, .b4_items:after, .h_bot_mob:after, .cart:after, .footer:after, .header_top:after, .header_top_mob:after, .b1:after, .b2:after, .b3:after, .b4:after, .b5:after, .b6:after, .b7:after, .b8:after, .b9:after, .b10:after, .b11:after, .b12:after, .b13:after, .b14:after {
   content: "";
   display: block;
   clear: both;
@@ -98,7 +98,7 @@ ul {
 }
 
 /* site styles */
-.footer, .header_top, .header_top_mob, .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12, .b13, .b14 {
+.cart, .footer, .header_top, .header_top_mob, .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12, .b13, .b14 {
   max-width: 1480px;
   padding: 0 15px;
   margin: 0 auto;
@@ -2121,6 +2121,264 @@ footer {
   left: calc(50% - 110px);
 }
 
+/* cart */
+.bb_btn_2 {
+  text-align: right;
+  margin: 16px 0;
+}
+.bb_btn_2 > a {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: rgba(62, 63, 67, 0.7);
+  border-bottom: 1px dotted rgba(62, 63, 67, 0.7);
+}
+.bb_btn_2 > a:hover {
+  border-bottom: none;
+}
+
+/*bonus_block_styles*/
+.cl:after, .bb_summary:after, .b1:after, .b2:after, .b3:after, .b4:after, .b5:after, .b6:after, .b7:after, .b8:after, .b9:after, .b10:after, .b11:after, .b12:after, .b13:after, .b14:after, .header_top_mob:after, .header_top:after, .h_bot_mob:after, .b4_items:after, .b6_content:after, .b6_form:after, .footer:after, .f_top:after, .f_center:after, .f_bot:after, .ps_lists:after, .cart:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.basket_bottom--total p, .basket_bottom--total span {
+  color: #83ba3d !important;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.basket_bottom--total p {
+  font-family: "Montserrat";
+  font-size: 40px;
+}
+
+.b_btns_fix {
+  text-align: right;
+}
+.b_btns_fix > a {
+  display: inline-block !important;
+  vertical-align: top;
+  margin: 10px 0 0 !important;
+  padding: 17px 0;
+}
+.b_btns_fix > a.btn {
+  width: 100% !important;
+  margin-bottom: 7px !important;
+}
+.b_btns_fix > a.more_orders {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 120%;
+}
+
+.bonus_block {
+  max-width: 265px;
+  float: right;
+  margin: 20px 0 40px;
+}
+
+.bb_gray {
+  background: #E7E7E7;
+  border-radius: 8px;
+  padding: 25px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bb_head {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 110%;
+  color: #24324a;
+  padding-left: 36px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 15px;
+}
+.bb_head:before {
+  display: block;
+  content: "";
+  width: 23px;
+  height: 24px;
+  background: url(../images/bb_head_icon.png) 0 0 no-repeat;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+
+.bb_total {
+  font-size: 24px;
+  line-height: 110%;
+  color: #84ba3d;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.bb_get {
+  font-size: 15px;
+  line-height: 110%;
+  color: #404145;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.bb_get_count::-webkit-input-placeholder {
+  color: #2d354b;
+  opacity: 1;
+}
+
+.bb_get_count::-moz-placeholder {
+  color: #2d354b;
+  opacity: 1;
+}
+
+.bb_get_count:-ms-input-placeholder {
+  color: #2d354b;
+  opacity: 1;
+}
+
+.bb_get_count {
+  display: block;
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #747474;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+
+.bb_get_max {
+  font-size: 15px;
+  line-height: 110%;
+  color: #525252;
+  font-family: "Montserrat";
+}
+.bb_get_max > span {
+  font-weight: 700;
+}
+
+.bb_radios {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.bb_radios > li {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 130px;
+  text-align: center;
+}
+.bb_radios > li:nth-child(1) {
+  margin-right: 30px;
+}
+.bb_radios > li > input {
+  display: none !important;
+}
+.bb_radios > li > input:checked + label:before {
+  border: 1px solid #333267;
+}
+.bb_radios > li > input:checked + label:after {
+  display: block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #00BD00;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bb_radios > li > label {
+  cursor: pointer;
+  position: relative;
+}
+.bb_radios > li > label:before {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  border: 1px solid #A2A2A2;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bb_radios > li > label > span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 110%;
+  padding-left: 24px;
+  font-family: "Montserrat";
+  color: #000000;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.bb_summary > span {
+  display: block;
+  font-family: "Montserrat";
+}
+.bb_summary > span:nth-child(1) {
+  float: left;
+  font-size: 15px;
+  line-height: 110%;
+  color: #404145;
+}
+.bb_summary > span:nth-child(2) {
+  float: right;
+  font-size: 17px;
+  line-height: 110%;
+  color: #2d354b;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding-left: 30px;
+  position: relative;
+}
+.bb_summary > span:nth-child(2):before {
+  display: block;
+  content: "";
+  width: 23px;
+  height: 24px;
+  background: url(../images/bb_head_icon.png) 0 0 no-repeat;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+
+.bb_promo {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 2px solid #84ba3d;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #84ba3d;
+  font-family: "Montserrat";
+  transition: 0.3s;
+  margin: 55px 0 7px 0;
+}
+.bb_promo:hover {
+  background: #84ba3d;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*end of bonus_block_styles*/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
